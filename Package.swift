@@ -17,8 +17,8 @@ let package = Package(
   ],
   dependencies: [
     .package(url: "https://github.com/pointfreeco/swift-snapshot-testing.git", from: "1.1.0"),
-    .package(url: "https://github.com/pointfreeco/swift-nonempty.git", from: "0.1.2"),
-    .package(url: "https://github.com/pointfreeco/swift-tagged.git", from: "0.2.0"),
+    .package(url: "https://github.com/ilyapuchka/swift-nonempty.git", .branch("master")),
+    .package(url: "https://github.com/ilyapuchka/swift-tagged.git", .branch("master")),
   ],
   targets: [
     .target(name: "Either", dependencies: ["Prelude"]),

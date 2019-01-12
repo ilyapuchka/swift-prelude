@@ -26,7 +26,7 @@ public func .*. <A, B> (lhs: A, rhs: B) -> T2<A, B> {
 }
 
 extension Tuple {
-  init<B1, C>(a: A, b: B1, c: C) where Tuple == Tuple3<A, B1, C> {
+  init<B1, C>(a: A, b: B1, c: C) where B == Tuple2<B1, C> {
     self.first = a
     self.second = b .*. c .*. unit
   }

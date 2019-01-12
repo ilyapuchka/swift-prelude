@@ -6,7 +6,7 @@ public enum Validation<E, A> {
 }
 
 public extension Validation {
-  public func validate<B>(_ e2b: (E) -> B, _ a2b: (A) -> B) -> B {
+  func validate<B>(_ e2b: (E) -> B, _ a2b: (A) -> B) -> B {
     switch self {
     case let .valid(a):
       return a2b(a)
@@ -15,7 +15,7 @@ public extension Validation {
     }
   }
 
-  public var isValid: Bool {
+  var isValid: Bool {
     return validate(const(false), const(true))
   }
 }
