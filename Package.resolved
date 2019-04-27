@@ -3,11 +3,11 @@
     "pins": [
       {
         "package": "NonEmpty",
-        "repositoryURL": "https://github.com/ilyapuchka/swift-nonempty.git",
+        "repositoryURL": "https://github.com/pointfreeco/swift-nonempty.git",
         "state": {
-          "branch": "master",
-          "revision": "79bd1b9603517854e3ee06e39e64304dab3a15e9",
-          "version": null
+          "branch": null,
+          "revision": "2051d80bcc1510f14508c942d64b5c6364ed1bdc",
+          "version": "0.2.0"
         }
       },
       {
@@ -21,11 +21,11 @@
       },
       {
         "package": "Tagged",
-        "repositoryURL": "https://github.com/ilyapuchka/swift-tagged.git",
+        "repositoryURL": "https://github.com/pointfreeco/swift-tagged.git",
         "state": {
-          "branch": "master",
-          "revision": "bff580f796f3e28d66381b4473f3cf7e93c329a2",
-          "version": null
+          "branch": null,
+          "revision": "890b791f3e28de6ded242fe02c2b8dfea1ee32b6",
+          "version": "0.4.0"
         }
       }
     ]
